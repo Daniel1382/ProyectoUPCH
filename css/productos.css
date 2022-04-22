@@ -214,3 +214,27 @@ input[type="radio"]{
     background: gold;
     color: white;
 }
+
+@media screen and (max-width: 1200px){
+
+    .productos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .productos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 580px){
+
+    .productos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
