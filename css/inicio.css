@@ -103,10 +103,10 @@ article:before{
 }
 
 article h1{
-
     margin-top: 20px;
     font-weight: 500;
     font-size: 40px;
+    text-align:center;
 
 }
 
@@ -128,6 +128,27 @@ article img{
 
 }
 
+/*video youtube*/
+
+.video{
+    border: 3px solid black;
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.video iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-youtube{
+    width: 80%;
+    margin: auto;
+}
 /*Ofertas*/
 
 .container-aside aside{
@@ -174,6 +195,19 @@ article img{
 
 }
 
+/*Imagenes*/
+.marcas-all{
+    width: 80%;
+    margin: a;
+}
+.marcas-all img{
+    width: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
 @media screen and (max-width: 1220px){
     
     .container-content{
@@ -201,7 +235,6 @@ article img{
     }
 
     .container-aside{
-
         display: flex;
         justify-content: center;
 
